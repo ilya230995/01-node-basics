@@ -35,6 +35,7 @@ export async function removeContact(contactId) {
     const parsedData = JSON.parse(data);
     const filteredData = parsedData.filter((item) => item.id !== contactId);
     await fs.writeFile(contactsPath, JSON.stringify(filteredData));
+    console.log("Контакт успешно удален");
   } catch (error) {
     console.log(error);
     return;
@@ -48,6 +49,7 @@ export async function addContact(name, email, phone) {
     const newContact = { id: Number(nanoid()), name, email, phone };
     parsedData.push(newContact);
     await fs.writeFile(contactsPath, JSON.stringify(parsedData));
+    console.log("Контакт успешно добавлен");
   } catch (error) {
     console.log(error);
   }
