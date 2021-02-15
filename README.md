@@ -1,13 +1,13 @@
 # 01-node-basics
 
 - listContacts - список контакстов
-  <img  alt="List"  src="https://i.ibb.co/6ywmr1H/1.png" />
+  <img  alt="List"  src="https://i.ibb.co/s6Xfkmq/5.png" />
 
 - getContactById - контакт по id
-  <img  alt="Get"  src="https://i.ibb.co/1vmWH83/2.png" />
+  <img  alt="Get"  src="https://i.ibb.co/VH84MmM/6.png" />
 
 - removeContact - удалить контакт
-  <img  alt="Remove"  src="https://i.ibb.co/HTj3gMM/3.png" />
+  <img  alt="Remove"  src="https://i.ibb.co/CBTqMxn/7.png" />
 
 - addContact - добавить контакт
-  <img  alt="Add"  src="https://i.ibb.co/PwptkHZ/4.png"/>
+  <img  alt="Add"  src="https://i.ibb.co/ggvdJv5/8.png"/>
